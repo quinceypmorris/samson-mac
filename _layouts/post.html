@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<article>
+  <p class="post-date">{{ page.date | date: "%B %d, %Y %H:%M" }}</p>
+  <h2 class="post-title">{{ page.title }}</h2>
+  <blockquote class="post-quote">{{ page.quote }}</blockquote>
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>
