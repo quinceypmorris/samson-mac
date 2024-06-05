@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #fff;
+}
+
+header, footer {
+  background: #222;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+main {
+  padding: 1em;
+  max-width: 800px;
+  margin: auto;
+}
+
+.post-date {
+  font-size: 0.8em;
+  color: #999;
+}
+
+.post-title {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.post-quote {
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  color: #00bcd4; /* Light Blue */
+  background-color: #444;
+  border-left: 5px solid #00bcd4; /* Light Blue */
+}
+
+.post-content {
+  margin-top: 1em;
+}
+
+/* Light Colors for Quotes */
+.post-quote.light-blue {
+  color: #00bcd4; /* Light Blue */
+  border-left-color: #00bcd4; /* Light Blue */
+}
+.post-quote.light-green {
+  color: #8bc34a; /* Light Green */
+  border-left-color: #8bc34a; /* Light Green */
+}
+.post-quote.light-purple {
+  color: #9c27b0; /* Light Purple */
+  border-left-color: #9c27b0; /* Light Purple */
+}
+.post-quote.light-orange {
+  color: #ff9800; /* Light Orange */
+  border-left-color: #ff9800; /* Light Orange */
+}
