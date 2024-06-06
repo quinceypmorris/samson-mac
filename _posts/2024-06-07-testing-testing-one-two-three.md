@@ -1,7 +1,7 @@
 ---
 layout: post
 title: testing testing one two three
-date: 7 june 2024 00:24
+date: 2024-06-07 00:24
 ---
 
 #  cheeky wee test post
